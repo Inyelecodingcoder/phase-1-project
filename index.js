@@ -62,3 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
         body.appendChild(launchersdiv)
         launchersdiv.appendChild(launchersButton)
         
+        let centresDiv = document.createElement('div')
+        
+        
