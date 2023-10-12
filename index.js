@@ -13,3 +13,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     newDiv.appendChild(buttonName)
     let listDiv = document.createElement('div')
     buttonName.addEventListener('click', () => {
+
+        let ul = document.createElement('ul')
+    ul.innerHTML = `
