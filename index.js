@@ -30,3 +30,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     spacecraftdiv.appendChild(newDiv)
       let lastDiv = document.createElement('form')
       lastDiv.innerHTML = `
+      <form>
+      <input id='input' placeholder='Comment'/>
+      <input type='submit' value='Add comment'/>
+
