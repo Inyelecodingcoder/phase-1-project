@@ -72,3 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <li>${centres.centres[0].name}</li>
          <li>${centres.centres[1].name}</li>
          <li>${centres.centres[2].name}</li>
+         <li>${centres.centres[3].name}</li>
+         <li>${centres.centres[4].name}</li>
+    `
