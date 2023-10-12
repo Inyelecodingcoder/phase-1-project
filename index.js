@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded', ()=> {
     buttonName.className = 'btnname'
     buttonName.textContent = 'Spacecrafts Names'
     newDiv.appendChild(buttonName)
+    let listDiv = document.createElement('div')
+    buttonName.addEventListener('click', () => {
