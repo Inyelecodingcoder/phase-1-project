@@ -19,3 +19,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     <li>${spacecrafts.spacecrafts[0].name}</li>
       <li>${spacecrafts.spacecrafts[1].name}</li>
       <li>${spacecrafts.spacecrafts[2].name}</li>
+      <li>${spacecrafts.spacecrafts[3].name}</li>
+     <li> ${spacecrafts.spacecrafts[4].name}</li>
+    `
