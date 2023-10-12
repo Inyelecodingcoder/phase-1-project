@@ -27,3 +27,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
        document.getElementsByTagName(ul)
        
     })
+    spacecraftdiv.appendChild(newDiv)
+      let lastDiv = document.createElement('form')
+      lastDiv.innerHTML = `
