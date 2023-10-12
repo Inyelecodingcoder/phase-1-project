@@ -38,3 +38,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
       newDiv.appendChild(lastDiv)
       let form = document.querySelector('form')
       console.log(form)
+      form.addEventListener('submit', (e)=>{
+        e.preventDefault()
+        let formValue = e.target.input.value
