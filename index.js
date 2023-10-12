@@ -56,3 +56,5 @@ document.addEventListener('DOMContentLoaded', () => {
         let body = document.querySelector('body')
         let launchersdiv = document.createElement('div')
         let launchersButton = document.createElement('button')
+        launchersButton.className = 'launchersbtn'
+        launchersButton.textContent = 'Launchers'
