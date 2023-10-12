@@ -33,4 +33,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
       <form>
       <input id='input' placeholder='Comment'/>
       <input type='submit' value='Add comment'/>
-
+      </form>
+      `
+      newDiv.appendChild(lastDiv)
+      let form = document.querySelector('form')
+      console.log(form)
