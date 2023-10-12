@@ -78,3 +78,5 @@ document.addEventListener('DOMContentLoaded', () => {
     centresDiv.appendChild(ul2)
 
         })
+        let launchFormDiv = document.createElement('form')
+        launchFormDiv.innerHTML = `
