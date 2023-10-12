@@ -48,3 +48,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     })
 })  
 })
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('https://isro.vercel.app/api/centres')
+    .then(res => res.json())
