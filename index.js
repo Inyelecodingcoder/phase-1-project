@@ -41,3 +41,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
       form.addEventListener('submit', (e)=>{
         e.preventDefault()
         let formValue = e.target.input.value
+        let p = document.createElement('p')
+        p.textContent = formValue
+        lastDiv.appendChild(p)
