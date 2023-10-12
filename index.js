@@ -93,3 +93,5 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault()
       let launchFormValue = e.target.input.value
       let p = document.createElement('p')
+      p.textContent = launchFormValue
+      launchFormDiv.appendChild(p)
