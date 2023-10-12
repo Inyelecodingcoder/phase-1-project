@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         let centresNamesDiv = document.createElement('div')
         
-        centresButton.appendChild(centresDiv)
+        centresButton.appendChild(centresNamesDiv)
         centresButton.addEventListener('click', () => {
             let ul2 = document.createElement('ul')
             ul2.className = 'centreslist'
