@@ -85,3 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <input type='submit' value='Add comment'/>
         </form>
         `
+        launchersdiv.appendChild(launchFormDiv)
+      let form = document.querySelector('form')
+      form.className = 'launchform'
