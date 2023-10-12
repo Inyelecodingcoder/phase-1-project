@@ -80,3 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         let launchFormDiv = document.createElement('form')
         launchFormDiv.innerHTML = `
+        <form>
+        <input id='input' placeholder='Comment'/>
+        <input type='submit' value='Add comment'/>
+        </form>
+        `
