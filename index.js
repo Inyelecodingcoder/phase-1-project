@@ -16,3 +16,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
         let ul = document.createElement('ul')
     ul.innerHTML = `
+    <li>${spacecrafts.spacecrafts[0].name}</li>
+      <li>${spacecrafts.spacecrafts[1].name}</li>
+      <li>${spacecrafts.spacecrafts[2].name}</li>
