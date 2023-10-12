@@ -75,3 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
          <li>${centres.centres[3].name}</li>
          <li>${centres.centres[4].name}</li>
     `
+    centresDiv.appendChild(ul2)
+
+        })
