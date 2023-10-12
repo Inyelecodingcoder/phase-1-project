@@ -88,3 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         launchersdiv.appendChild(launchFormDiv)
       let form = document.querySelector('form')
       form.className = 'launchform'
+      console.log(form)
+      form.addEventListener('submit', (e)=>{
+      e.preventDefault()
