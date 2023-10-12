@@ -95,3 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
       let p = document.createElement('p')
       p.textContent = launchFormValue
       launchFormDiv.appendChild(p)
+    })
+})
+})
