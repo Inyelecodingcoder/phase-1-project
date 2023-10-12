@@ -69,3 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let ul2 = document.createElement('ul')
             ul2.className = 'centreslist'
     ul2.innerHTML = `
+    <li>${centres.centres[0].name}</li>
+         <li>${centres.centres[1].name}</li>
+         <li>${centres.centres[2].name}</li>
