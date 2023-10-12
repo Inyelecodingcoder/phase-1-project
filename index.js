@@ -52,3 +52,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 document.addEventListener('DOMContentLoaded', () => {
     fetch('https://isro.vercel.app/api/centres')
     .then(res => res.json())
+    .then(centres => { 
+        let body = document.querySelector('body')
+        let launchersdiv = document.createElement('div')
+        let launchersButton = document.createElement('button')
