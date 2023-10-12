@@ -22,3 +22,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
       <li>${spacecrafts.spacecrafts[3].name}</li>
      <li> ${spacecrafts.spacecrafts[4].name}</li>
     `
+    buttonName.appendChild(listDiv)
+    listDiv.appendChild(ul)
+       document.getElementsByTagName(ul)
+       
+    })
