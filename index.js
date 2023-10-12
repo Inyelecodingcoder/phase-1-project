@@ -67,3 +67,5 @@ document.addEventListener('DOMContentLoaded', () => {
         launchersButton.appendChild(centresDiv)
         launchersButton.addEventListener('click', () => {
             let ul2 = document.createElement('ul')
+            ul2.className = 'centreslist'
+    ul2.innerHTML = `
