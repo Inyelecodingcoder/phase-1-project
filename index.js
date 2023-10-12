@@ -91,3 +91,5 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(form)
       form.addEventListener('submit', (e)=>{
       e.preventDefault()
+      let launchFormValue = e.target.input.value
+      let p = document.createElement('p')
