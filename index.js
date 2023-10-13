@@ -65,18 +65,21 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(centres => { 
         //select the body element
         let body = document.querySelector('body')
-        //
+        //create a div that will contain the centres button
         let centresDiv = document.createElement('div')
+        //create the centres button
         let centresButton = document.createElement('button')
         centresButton.className = 'centresbtn'
         centresButton.textContent = 'Spacecraft Centres'
-
+//attach the centres dive to the body
         body.appendChild(centresDiv)
+        //attach the centres button to the centres div
         centresDiv.appendChild(centresButton)
-        
+        //create a div that will contain the list of centres
         let centresNamesDiv = document.createElement('div')
-        
+        //attach the list to the button
         centresButton.appendChild(centresNamesDiv)
+        //add an event listener to the button
         centresButton.addEventListener('click', () => {
             let ul2 = document.createElement('ul')
             ul2.className = 'centreslist'
@@ -87,9 +90,11 @@ document.addEventListener('DOMContentLoaded', () => {
          <li>${centres.centres[3].name}</li>
          <li>${centres.centres[4].name}</li>
     `
+            //attach the list to the list div
     centresNamesDiv.appendChild(ul2)
 
         })
+        //create a form that will allow one to comment
         let centresFormDiv = document.createElement('form')
         centresFormDiv.innerHTML = `
         <form>
