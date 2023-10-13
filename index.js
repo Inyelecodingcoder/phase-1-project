@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     `
         //attach the list-div to the button
     buttonName.appendChild(listDiv)
-        //attacjh the list to the list-div
+        //attach the list to the list-div
     listDiv.appendChild(ul)
        document.getElementsByTagName(ul)
        
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let centresButton = document.createElement('button')
         centresButton.className = 'centresbtn'
         centresButton.textContent = 'Spacecraft Centres'
-//attach the centres dive to the body
+//attach the centres div to the body
         body.appendChild(centresDiv)
         //attach the centres button to the centres div
         centresDiv.appendChild(centresButton)
@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         centresButton.appendChild(centresNamesDiv)
         //add an event listener to the button
         centresButton.addEventListener('click', () => {
+            //create a list of the names
             let ul2 = document.createElement('ul')
             ul2.className = 'centreslist'
     ul2.innerHTML = `
