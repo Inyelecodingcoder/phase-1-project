@@ -36,6 +36,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
     })
         //attach the first div created in this file to the div created in html
     spacecraftdiv.appendChild(newDiv)
+         //select like button 
+   let nameLikeButton =  document.getElementById('likeButton')
+   const likeCount = document.getElementById('likeCount');
+let count = 0;
+   nameLikeButton.addEventListener( 'click', () =>
+  {  count++
+    likeCount.innerText = count;
+   })
         //create a form that will allow users to comment
       let lastDiv = document.createElement('form')
       lastDiv.innerHTML = `
@@ -114,5 +122,32 @@ document.addEventListener('DOMContentLoaded', () => {
       p.textContent = centresFormValue
       centresFormDiv.appendChild(p)
     })
+
+        //create a div that will have the centres like button
+    let form2Div = document.createElement('div')
+    form2Div.setAttribute('id', 'form2Div')
+    //create the centres like button
+    let centresLikeButton = document.createElement('button')
+    centresLikeButton.textContent = 'Like'
+    centresLikeButton.setAttribute('id', 'likeButton2')
+    
+    
+   
+    let span2 = document.createElement('span')
+    span2.setAttribute('id', 'likeCount2')
+    
+    const likeNumbers = 0
+    span2.textContent = likeNumbers
+    
+    let count2 = 0
+    centresLikeButton.addEventListener('click', () => {
+  count2++
+  likeCount2.innerText = count2;
+    })
+    //attach the button to the centres like button div
+    form2Div.appendChild(centresLikeButton)
+    form2Div.appendChild(span2)
+    //attach the div to the body
+    body.appendChild(form2Div)
 })
 })
