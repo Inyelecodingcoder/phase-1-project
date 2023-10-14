@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', ()=> {
-    //fetch the spacecrafts name
+    //fetch the spacecraft names
     fetch('https://isro.vercel.app/api/spacecrafts')
     .then(res => res.json())
     .then(spacecrafts => { 
