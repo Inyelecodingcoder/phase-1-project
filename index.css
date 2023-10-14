@@ -10,3 +10,11 @@ button {
 .launchersbtn {
     margin-top: 40px;
 }
+
+li {
+     text-align: left;
+}
+
+#likeButton {
+    margin-bottom: 40px;
+}
